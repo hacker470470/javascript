@@ -1,8 +1,13 @@
-var name;
-name = "fortnite";
+var age;
+age = 5
+if(0<age<10){
+    console.log("!!!!!!you are YOUNG!YOU CAN ONLY PLAY MARIO!!!!!!")
+} 
 
-var price;
-price = 0;
+if(10<age<20){
+    console.log("YOU CAN PLAY CALL OF DUTY:]")
+} 
 
-console.log(typeof(name))
-console.log(typeof(price))
+if(age>20 && age<100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000){
+    console.log("YOU CAN PLAY GTA AND ALL GAMES:D:]:)")
+} 
