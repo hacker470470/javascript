@@ -1,13 +1,5 @@
-var age;
-age = 5
-if(0<age<10){
-    console.log("!!!!!!you are YOUNG!YOU CAN ONLY PLAY MARIO!!!!!!")
-} 
+var images = [];
 
-if(10<age<20){
-    console.log("YOU CAN PLAY CALL OF DUTY:]")
-} 
+images = [" image1"," image2"," image5",];
 
-if(age>20 && age<100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000){
-    console.log("YOU CAN PLAY GTA AND ALL GAMES:D:]:)")
-} 
+console.log(images.length);
