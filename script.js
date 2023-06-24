@@ -1,7 +1,7 @@
-var i;
-var images = [];
+var menuicon = document.getElementById("menu470");
+var list = document.getElementById("list");
+menuicon.onclick = function(){
+   menuicon.src = "cross.png";
+   list.style.display = "block";
+}
 
-images = [" image1"," image2"," image3","image4","image5"];
-images[4] = "image222";
-images.push("image6");
-console.log(images);
